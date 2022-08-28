@@ -1,0 +1,28 @@
+.article {
+    position: relative;
+    /*not sure if hidden must be used*/
+
+    overflow: hidden;
+    height: 100%;
+
+}
+
+.text {
+    font-size: 80px;
+    padding-right: 50px;
+    padding-left: 60%;
+    color: black;
+    text-align: left;
+    overflow-wrap: break-word;
+    position: absolute;
+    font-family: 'Open Sans';
+
+    /* offset */
+    top: 0;
+
+
+    /*
+    height: fit-content;
+    margin: auto;
+    */
+}
