@@ -8,9 +8,6 @@
 }
 
 .text {
-    font-size: 80px;
-    padding-right: 50px;
-    padding-left: 60%;
     color: black;
     text-align: left;
     overflow-wrap: break-word;
@@ -18,9 +15,8 @@
     font-family: 'Open Sans';
 
     /* offset */
-    top: 0;
-
-
+    top: 10%;
+    left: 10%;
     /*
     height: fit-content;
     margin: auto;

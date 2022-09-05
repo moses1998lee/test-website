@@ -6,14 +6,15 @@ import styles from "./image.module.css"
   - Text to be written within component in App.js and assigned properties through image.css
   */
 
-function Image({ source, font_style, children }) {
+
+
+function Image({ source, style, children }) {
     //Article tags used when text is self-contained (independent of its surrounding context)
-    return <article className={styles.article}>
-        <img src={source} />
-        <div className={styles.text} style={font_style}> {children} </div>
-    </article>
-
-
+    return (
+        <article className={styles.article}>
+            <img src={source} />
+            <div className={styles.text} style={style}>{children}</div>
+        </article>)
 }
 
 export default Image
