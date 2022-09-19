@@ -1,44 +1,12 @@
-.App {
-  text-align: center;
-  max-width: 100%;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #272727;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  font-family: "Montserrat";
+  font-weight: "regular";
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background: #272727;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 img {
   width: 100%;
@@ -46,24 +14,24 @@ img {
   align-items: left;
 }
 
-body {
+.App {
+  text-align: center;
   padding-top: 60px;
-  background-color: #272727;
-
+  max-width: 100%;
 }
 
-p{
-  position: relative;
-  margin-top: -13px;
-  font-family: "Montserrat";
-  font-weight: "regular";
-}
-
-.subpages{
+/* Should be moved into their own component in the future */
+.subpages {
+  display: inline-block;
   text-decoration: none;
   color: white;
-  padding: 100px;
+  padding: 50px 100px;
   justify-content: center;
   position: relative;
   align-items: center;
+  border-radius: 5px;
+}
+
+.subpages:hover {
+  outline: 2px solid white;
 }

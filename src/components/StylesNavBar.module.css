@@ -1,22 +1,16 @@
 .navigation {
-    /*background-color: white;*/
-    height: 50px;
-    width: 545px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: #fff;
-    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 150px;
+  border-radius: 5px;
+
+  color: #272727;
+  background-color: white;
 }
 
-
-
 .article {
-    color: #272727;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: large;
-    align-items: center;
-    text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
 }
