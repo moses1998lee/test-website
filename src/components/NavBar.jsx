@@ -1,14 +1,13 @@
-import { Children } from "react"
-import StylesNavBar from "./StylesNavBar.module.css"
+import styles from "./StylesNavBar.module.css";
 
 // I want to create a generic function that allows me to fit in more headers in the future if i want to
 
 function NavBar({ children }) {
-    return (
-        <nav className={StylesNavBar.navigation}>
-            <a href="/" className={StylesNavBar.article}>{children}</a>
-        </nav >
-    )
+  return (
+    <a href="/" className={styles.article}>
+      <nav className={styles.navigation}>{children}</nav>
+    </a>
+  );
 }
 
-export default NavBar
+export default NavBar;

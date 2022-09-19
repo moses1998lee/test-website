@@ -1,0 +1,32 @@
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionHeroText {
+  margin: 150px 0px;
+}
+
+.sectionHeroText > * {
+  margin: 0px;
+}
+
+.sectionNavButtons {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  background-color: #272727;
+  text-decoration: none;
+}
+
+.sectionContact {
+  border-top: 2px solid white;
+  margin: 150px 10vw;
+  padding-top: 50px;
+}
+
+.sectionContact .contactDetails {
+  margin: 10px 0px;
+}
